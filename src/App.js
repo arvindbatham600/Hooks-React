@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import ClassCounter from './Components/ClassCounter';
-import HookCounter from './Components/HookCounter';
-import HookCounterTwo from './Components/HookCounterTwo';
+// import HookCounterWithObject from './Components/HookCounterWithObject';
+import HookCounterWithArray from './Components/HookCounterWithArray';
+// import ClassCounter from './Components/ClassCounter';
+// import HookCounter from './Components/HookCounter';
+// import HookCounterTwo from './Components/HookCounterTwo';
 
 function App() {
   return (
     <div className="App">
+      <HookCounterWithArray />
+      {/* <HookCounterWithObject /> */}
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
-      <HookCounterTwo />
+      {/* <HookCounterTwo /> */}
     </div>
   );
 }
