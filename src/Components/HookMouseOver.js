@@ -13,6 +13,11 @@ function HookMouseOver() {
     useEffect((e) => {
         console.log("useEffect")
         window.addEventListener("mousemove",logMousePositions)
+
+        return () => {
+            console.log("clearing UseEffect")
+            window.removeEventListener("mousemove",logMousePositions)
+        }
     },[])
   return (
     <div>
