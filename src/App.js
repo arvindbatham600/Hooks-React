@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import HookIntervalCounter2 from './Components/HookIntervalCounter2';
+import DataFetching from './Components/DataFetching';
+// import HookIntervalCounter2 from './Components/HookIntervalCounter2';
 // import HookIntervalCounter from './Components/HookIntervalCounter';
 // import HookMouse from './Components/HookMouse';
 // import HookCounterWithObject from './Components/HookCounterWithObject';
@@ -14,7 +15,8 @@ import HookIntervalCounter2 from './Components/HookIntervalCounter2';
 function App() {
   return (
     <div className="App">
-      <HookIntervalCounter2 />
+      <DataFetching />
+      {/* <HookIntervalCounter2 /> */}
       {/* <HookIntervalCounter /> */}
       {/* <HookMouse /> */}
       {/* <HookMouseOver /> */}
