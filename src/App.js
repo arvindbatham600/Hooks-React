@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import HookMouse from './Components/HookMouse';
+import HookIntervalCounter2 from './Components/HookIntervalCounter2';
+// import HookIntervalCounter from './Components/HookIntervalCounter';
+// import HookMouse from './Components/HookMouse';
 // import HookCounterWithObject from './Components/HookCounterWithObject';
 // import HookCounterWithArray from './Components/HookCounterWithArray';
 // import HookUseEffect from './Components/HookUseEffect';
@@ -12,7 +14,9 @@ import HookMouse from './Components/HookMouse';
 function App() {
   return (
     <div className="App">
-      <HookMouse />
+      <HookIntervalCounter2 />
+      {/* <HookIntervalCounter /> */}
+      {/* <HookMouse /> */}
       {/* <HookMouseOver /> */}
        {/* <HookUseEffect /> */}
       {/* <HookCounterWithArray /> */}
