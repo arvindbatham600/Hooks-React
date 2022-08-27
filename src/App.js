@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 import UseReducerHook from './Components/UseReducerHook';
+import UseReducerObjectHook from './Components/UseReducerObjectHook';
 // import ComponentE from './Components/ComponentE';
 // import DataFetching from './Components/DataFetching';
 // import HookIntervalCounter2 from './Components/HookIntervalCounter2';
@@ -19,7 +20,8 @@ export const userContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <UseReducerHook />
+      <UseReducerObjectHook />
+      {/* <UseReducerHook /> */}
       {/* <userContext.Provider value={'arvind'}>
         <ComponentE />
       </userContext.Provider> */}
