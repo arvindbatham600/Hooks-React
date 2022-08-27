@@ -1,6 +1,9 @@
+import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import DataFetching from './Components/DataFetching';
+import UseReducerHook from './Components/UseReducerHook';
+// import ComponentE from './Components/ComponentE';
+// import DataFetching from './Components/DataFetching';
 // import HookIntervalCounter2 from './Components/HookIntervalCounter2';
 // import HookIntervalCounter from './Components/HookIntervalCounter';
 // import HookMouse from './Components/HookMouse';
@@ -11,11 +14,16 @@ import DataFetching from './Components/DataFetching';
 // import ClassCounter from './Components/ClassCounter';
 // import HookCounter from './Components/HookCounter';
 // import HookCounterTwo from './Components/HookCounterTwo';
+export const userContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <UseReducerHook />
+      {/* <userContext.Provider value={'arvind'}>
+        <ComponentE />
+      </userContext.Provider> */}
+      {/* <DataFetching /> */}
       {/* <HookIntervalCounter2 /> */}
       {/* <HookIntervalCounter /> */}
       {/* <HookMouse /> */}
