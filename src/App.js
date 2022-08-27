@@ -1,8 +1,9 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import UseReducerHook from './Components/UseReducerHook';
-import UseReducerObjectHook from './Components/UseReducerObjectHook';
+import UseReducerCounterThree from './Components/UseReducerCounterTheree';
+// import UseReducerHook from './Components/UseReducerHook';
+// import UseReducerObjectHook from './Components/UseReducerObjectHook';
 // import ComponentE from './Components/ComponentE';
 // import DataFetching from './Components/DataFetching';
 // import HookIntervalCounter2 from './Components/HookIntervalCounter2';
@@ -15,12 +16,13 @@ import UseReducerObjectHook from './Components/UseReducerObjectHook';
 // import ClassCounter from './Components/ClassCounter';
 // import HookCounter from './Components/HookCounter';
 // import HookCounterTwo from './Components/HookCounterTwo';
-export const userContext = React.createContext();
+// export const userContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <UseReducerObjectHook />
+      <UseReducerCounterThree />
+      {/* <UseReducerObjectHook /> */}
       {/* <UseReducerHook /> */}
       {/* <userContext.Provider value={'arvind'}>
         <ComponentE />
